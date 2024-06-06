@@ -10,4 +10,5 @@ for i in range(n-1):
         if sentence[j] != other_sen[j]:
             sentence[j] = "?"
 
-
+for i in sentence:
+    print(i, end="")
