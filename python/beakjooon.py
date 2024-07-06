@@ -1,2 +1,2 @@
 import sys
-input = 
+input = ()
