@@ -12,4 +12,15 @@ public class Main {
         StringTokenizer st = new StringTokenizer(bf.readLine());
         int n = Integer.parseInt(st.nextToken());
         int m = Integer.parseInt(st.nextToken());
+
+        if (n == m) {
+            System.out.println("==");
+        }
+        else if (n < m) {
+            System.out.println("<");
+        }
+        else {
+            System.out.println(">");
+        }
+    }
 }
